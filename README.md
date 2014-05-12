@@ -5,7 +5,7 @@ Python script for downloading subtitles from www.subscene.com
 ===================
 
 This script requires:
-1) BeautifulSoup ( > 4.0), a python library for parsing html content.
+1) BeautifulSoup ( >= 4.0), a python library for parsing html content.
 
 Script tested in Linux environment on Python(2.7.3).
 
