@@ -10,9 +10,13 @@ This script requires:
 Script tested in Linux environment on Python(2.7.3).
 
 1) Run the file as: python subtitleDownloader.py
+
 2) Enter the name of the movie/video for which the subtitles are to be fetched, for ex: The Conjuring
+
 3) Enter the index from the suggestions provided
+
 4) Enter a language of choice.
+
 5) Enter the name of the file for ex: The.Conjuring.2013.720p.BluRay.x264.YIFY
    Remember not to include the file extension.
 
@@ -28,6 +32,9 @@ the script uses dynamic programming technique to compute the 'Levenshtein distan
 For reference: en.wikipedia.org/wiki/Levenshtein_distance
 
 Author:
+
 Shibin George
+
 B.Tech CSE, 2011-15,
+
 National Institute Of Technology, Warangal.
