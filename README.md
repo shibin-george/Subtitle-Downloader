@@ -32,6 +32,9 @@ the script uses dynamic programming technique to compute the 'Levenshtein distan
 For reference: en.wikipedia.org/wiki/Levenshtein_distance
 
 Author:
+
 Shibin George
+
 B.Tech CSE, 2011-15,
+
 National Institute Of Technology, Warangal.
