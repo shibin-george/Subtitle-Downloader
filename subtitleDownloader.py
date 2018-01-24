@@ -60,8 +60,12 @@ url = "http://subscene.com/subtitles/title?q="#the+man+from+earth&l="
 
 url += movieName.replace(" ", "+")
 print "Searching: " +  url + "&l="
-response = urllib2.urlopen(url)
-page = response.read()
+# repaire urllib2 403 error
+#response = urllib2.urlopen(url)
+#page = response.read()
+http = urllib3.PoolManager()
+r = http.request('GET',url)
+page = r.data
 #print page
 index = 0
 soup = BeautifulSoup(page)
